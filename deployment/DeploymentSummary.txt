@@ -1,22 +1,22 @@
-(node:1863) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:1930) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-Deploy ID: [1m0AfdM00000BzltKSAR[22m
-Deploy URL: [1mhttps://creative-shark-ddvsjq-dev-ed.trailblaze.my.salesforce.com/lightning/setup/DeployStatus/page?address=%2Fchangemgmt%2FmonitorDeploymentsDetails.apexp%3FasyncId%3D0AfdM00000BzltKSAR%26retURL%3D%252Fchangemgmt%252FmonitorDeployment.apexp[22m
+Deploy ID: [1m0AfdM00000BzqjMSAR[22m
+Deploy URL: [1mhttps://brave-badger-b71zni-dev-ed.trailblaze.my.salesforce.com/lightning/setup/DeployStatus/page?address=%2Fchangemgmt%2FmonitorDeploymentsDetails.apexp%3FasyncId%3D0AfdM00000BzqjMSAR%26retURL%3D%252Fchangemgmt%252FmonitorDeployment.apexp[22m
 
 [34m[1mDeployed Source[22m[39m
- State      Name       Type       Path                  
---------------------------------------------------------
- Created    Demo1      ApexClass  classes/Demo1.cls     
- Created    Demo1Test  ApexClass  classes/Demo1Test.cls 
- Unchanged  Demo2      ApexClass  classes/Demo2.cls     
- Changed    Demo2Test  ApexClass  classes/Demo2Test.cls 
- Unchanged  Demo3      ApexClass  classes/Demo3.cls     
- Changed    Demo3Test  ApexClass  classes/Demo3Test.cls 
+ State    Name       Type       Path                  
+------------------------------------------------------
+ Created  Demo1      ApexClass  classes/Demo1.cls     
+ Created  Demo1Test  ApexClass  classes/Demo1Test.cls 
+ Created  Demo2      ApexClass  classes/Demo2.cls     
+ Created  Demo2Test  ApexClass  classes/Demo2Test.cls 
+ Created  Demo3      ApexClass  classes/Demo3.cls     
+ Created  Demo3Test  ApexClass  classes/Demo3Test.cls 
 
 
 
-[1m[32mSuccessfully deployed (0AfdM00000BzltKSAR).[39m[22m
+[1m[32mSuccessfully deployed (0AfdM00000BzqjMSAR).[39m[22m
 
 ----------------------------------------
-Deployment completed at: Tue Dec  3 10:45:26 UTC 2024
-Branch: prod
+Deployment completed at: Tue Dec  3 10:48:53 UTC 2024
+Branch: sandbox
