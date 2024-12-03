@@ -1,12 +1,65 @@
-(node:1873) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:1984) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-[1m[31mError (NothingToDeploy):[39m[22m No local changes to deploy.
+Validating Deployment of v62.0 metadata to vedansh@playful-hawk-7wabrd.com using the v62.0 SOAP API.
+───── Validating Deployment ─────
+Stages:
+1. Preparing
+2. Waiting for the org to respond
+3. Deploying Metadata
+4. Running Tests
+5. Updating Source Tracking
+6. Done
 
-[2mTry this:[22m
+▶ Preparing…
+   Deploy ID: 0AfdL00000CRTLkSAP
+   Target Org: vedansh@playful-hawk-7wabrd.com
+✔ Preparing (304ms)
+◯ Waiting for the org to respond - Skipped
+▶ Deploying Metadata…
+   Components: 0/6 (0%)
+✔ Deploying Metadata (758ms)
+   Components: 6/6 (100%)
+▶ Running Tests…
+   Tests: 2/3 (67%)
+✔ Running Tests (751ms)
+   Tests: 3/3 (100%)
+◯ Updating Source Tracking - Skipped
+▶ Done…
+✔ Done (0ms)
 
-[2mTo see conflicts and ignored files, run "sf project deploy preview" with any of the manifest, directory, or metadata flags.[22m
+Status: Succeeded
+Deploy ID: 0AfdL00000CRTLkSAP
+Target Org: vedansh@playful-hawk-7wabrd.com
 
+Elapsed time: 1.81s
+
+[34m[1mValidated Source[22m[39m
+ State      Name       Type       Path                                                  
+----------------------------------------------------------------------------------------
+ Unchanged  Demo1      ApexClass  force-app/main/default/classes/Demo1.cls              
+ Unchanged  Demo1      ApexClass  force-app/main/default/classes/Demo1.cls-meta.xml     
+ Changed    Demo1Test  ApexClass  force-app/main/default/classes/Demo1Test.cls          
+ Changed    Demo1Test  ApexClass  force-app/main/default/classes/Demo1Test.cls-meta.xml 
+ Unchanged  Demo2      ApexClass  force-app/main/default/classes/Demo2.cls              
+ Unchanged  Demo2      ApexClass  force-app/main/default/classes/Demo2.cls-meta.xml     
+ Changed    Demo2Test  ApexClass  force-app/main/default/classes/Demo2Test.cls          
+ Changed    Demo2Test  ApexClass  force-app/main/default/classes/Demo2Test.cls-meta.xml 
+ Unchanged  Demo3      ApexClass  force-app/main/default/classes/Demo3.cls              
+ Unchanged  Demo3      ApexClass  force-app/main/default/classes/Demo3.cls-meta.xml     
+ Changed    Demo3Test  ApexClass  force-app/main/default/classes/Demo3Test.cls          
+ Changed    Demo3Test  ApexClass  force-app/main/default/classes/Demo3Test.cls-meta.xml 
+
+
+[34m[1mTest Results Summary[22m[39m
+Passing: 3
+Failing: 0
+Total: 3
+Time: 169
+
+[1m[32mSuccessfully validated the deployment (0AfdL00000CRTLkSAP).[39m[22m
+Run "sf project deploy quick --job-id 0AfdL00000CRTLkSAP" to execute this deploy
 
 ----------------------------------------
-Validation completed at: Tue Dec  3 10:37:19 UTC 2024
+Validation completed at: Tue Dec  3 10:39:18 UTC 2024
 Branch: integration
+Deploy: sf project deploy quick --job-id 0AfdL00000CRTLkSAP
