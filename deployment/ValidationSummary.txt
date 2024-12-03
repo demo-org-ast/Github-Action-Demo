@@ -1,0 +1,12 @@
+(node:1873) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[1m[31mError (NothingToDeploy):[39m[22m No local changes to deploy.
+
+[2mTry this:[22m
+
+[2mTo see conflicts and ignored files, run "sf project deploy preview" with any of the manifest, directory, or metadata flags.[22m
+
+
+----------------------------------------
+Validation completed at: Tue Dec  3 10:37:19 UTC 2024
+Branch: integration
