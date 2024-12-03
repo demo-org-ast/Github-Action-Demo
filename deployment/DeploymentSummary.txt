@@ -1,0 +1,22 @@
+(node:1926) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Deploy ID: [1m0AfdL00000CQvdISAT[22m
+Deploy URL: [1mhttps://playful-hawk-7wabrd-dev-ed.trailblaze.my.salesforce.com/lightning/setup/DeployStatus/page?address=%2Fchangemgmt%2FmonitorDeploymentsDetails.apexp%3FasyncId%3D0AfdL00000CQvdISAT%26retURL%3D%252Fchangemgmt%252FmonitorDeployment.apexp[22m
+
+[34m[1mDeployed Source[22m[39m
+ State      Name       Type       Path                  
+--------------------------------------------------------
+ Unchanged  Demo1      ApexClass  classes/Demo1.cls     
+ Changed    Demo1Test  ApexClass  classes/Demo1Test.cls 
+ Unchanged  Demo2      ApexClass  classes/Demo2.cls     
+ Changed    Demo2Test  ApexClass  classes/Demo2Test.cls 
+ Unchanged  Demo3      ApexClass  classes/Demo3.cls     
+ Changed    Demo3Test  ApexClass  classes/Demo3Test.cls 
+
+
+
+[1m[32mSuccessfully deployed (0AfdL00000CQvdISAT).[39m[22m
+
+----------------------------------------
+Deployment completed at: Tue Dec  3 10:40:28 UTC 2024
+Branch: integration
